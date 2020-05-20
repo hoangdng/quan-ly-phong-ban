@@ -1,0 +1,21 @@
+.main {
+    height: 500px;
+}
+
+
+.main .advert{
+    overflow: scroll;
+    height: 500px;
+}
+
+.main .advert img{
+    height: auto;
+    width: 100%;
+}
+
+.main p{
+    color: #ff4b00;
+    font-weight: 700;
+    font-family: 'Pangolin', cursive;
+    font-size: 2em;
+}

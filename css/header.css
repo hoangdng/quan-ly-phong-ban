@@ -1,0 +1,39 @@
+
+.header {
+    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(222, 226, 230);
+    height: 130px;
+    font-family: 'Pangolin', cursive;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+}
+
+.header h1{
+    font-family: 'Pangolin', cursive;
+    font-size: 3.5em;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.header form input[type="text"]{
+    margin-right: 20px;
+    border: none;
+    border-bottom: 1px solid #56c4b0;
+    padding: 0 10px;
+    height: 30px;
+}
+
+.header form input[type="password"]{
+    margin-right: 20px;
+    border: none;
+    padding: 0 10px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #56c4b0;
+}
+

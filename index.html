@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/minty/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-HqaYdAE26lgFCJsUF9TBdbZf7ygr9yPHtxtg37JshqVQi6CCAo6Qvwmgc5xclIiV" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <div class="col-2">
+                <img class="float-right" src="./pic/fox.png" alt="">
+            </div>
+            <div class="col-8 text-center">
+                <h1>Chương trình quản lý phòng ban</h1>
+                <form action="./php/xulilogin.php" method="GET">
+                    <label for="username">Tài khoản:</label>
+                    <input type="text" name="username">
+                    <label for="password">Mật khẩu:</label>
+                    <input type="password" name="password">
+                    <input class="btn btn-primary" type="submit" value="Đăng nhập" name="signIn">
+                    <input class="btn btn-outline-primary" type="submit" value="Đăng ký" name="signUp">
+                </form>
+            </div>
+            <div class="col-2">
+                <img class="float-left"
+                    src="https://upload.wikimedia.org/wikipedia/vi/thumb/a/a1/Man_Utd_FC_.svg/1200px-Man_Utd_FC_.svg.png"
+                    alt="">
+            </div>
+        </div>
+
+        <div class="row main">
+            <div class="col-2 side-bar d-flex align-items-center">
+                <p>Bạn hãy đăng nhập để sử dụng các chức năng khác</p>
+            </div>
+            <div class="col-8 main-content">
+                <iframe src="./php/nhanvien.php" frameborder="0" height="100%" width="100%"></iframe>
+            </div>
+            <div class="col-2 advert">
+                <img src="https://instagram.fdad3-2.fna.fbcdn.net/v/t51.2885-15/e35/97909006_525414981462554_9032182982696331605_n.jpg?_nc_ht=instagram.fdad3-2.fna.fbcdn.net&_nc_cat=1&_nc_ohc=pxT5taCdUn0AX9_X2HW&oh=834caffe330332560f51d41e2ff3ff19&oe=5EECB69D" alt="">
+                <img src="https://instagram.fdad3-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/97185399_259744092042806_5378989919297090311_n.jpg?_nc_ht=instagram.fdad3-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=DafuXGt2kgAAX_vkaNC&oh=6009dc5dfbdb9733e0a835481956c229&oe=5EF00E2E" alt="">
+                <img src="https://instagram.fdad3-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/76782386_106096097465574_3807162522840504350_n.jpg?_nc_ht=instagram.fdad3-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=8TbnrJ_8qOgAX-szBrB&oh=6d15ef821208d68d289b3e48ac3e09df&oe=5EF067A8" alt="">
+                <img src="https://instagram.fdad3-1.fna.fbcdn.net/v/t51.2885-15/e35/97219542_243192296969246_2662059415540587_n.jpg?_nc_ht=instagram.fdad3-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=4_eEhdwFNLMAX8bmXMJ&oh=ab74379742e7e9da3ea699206976b8d1&oe=5EED523F" alt="">
+                <img src="https://instagram.fdad3-3.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/95391949_680748522495885_1127567473121055083_n.jpg?_nc_ht=instagram.fdad3-3.fna.fbcdn.net&_nc_cat=109&_nc_ohc=HHMUUAbMNrYAX9SMEfJ&oh=43cdad395002ae8f4c39b7f200cd679b&oe=5EEE89CE" alt="">
+            </div>
+        </div>
+
+        <div class="row footer d-flex justify-content-center">
+            <p>Lập trình Web và ứng dụng là một môn học hay và bổ ích</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>

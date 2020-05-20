@@ -1,0 +1,10 @@
+.footer {
+    border-top: 1px solid rgb(222, 226, 230);
+}
+.footer p {
+    margin-top: 10px;
+    color: black;
+    font-style: italic;
+    font-family: 'Pangolin', cursive;
+    font-size: 1.2em;
+}
